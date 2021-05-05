@@ -1,4 +1,4 @@
-#Pre-Open Sale
+# Pre-Open Sale
 
 •	Pre/Open Sale : 9% of the Total Supply 22,500,000 $DINO
 
