@@ -1,4 +1,4 @@
-#Dino DeFi Tokenomics
+# Dino DeFi Tokenomics
 $DINO
 
 DINO token is the governance token of the Dino DeFi platform. It will also capture the economic benefits of the protocol. There will be a maximum of 250 million $DINO tokens.
