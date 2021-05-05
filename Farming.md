@@ -1,4 +1,4 @@
-#Dino Farm
+# Dino Farm
 Initial Liquidity Pools (LPs) for farming $DINO tokens:
 
 Reward multipliers:
