@@ -1,4 +1,4 @@
-#Dino Swap
+# Dino Swap
 
 Dino Swap provides a seamless service for users to trade token(s) for another via automated liquidity pools. The liquidity provided to the exchange comes from Liquidity Providers (LPs) who stake their tokens in DINO Pools. In exchange, they get DIP (DinoSwap Liquidity Provider) tokens, which can also be staked to earn $DINO token(s) in the DINO Farm.
 
