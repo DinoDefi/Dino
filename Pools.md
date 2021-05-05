@@ -1,4 +1,4 @@
-#xDINO Pools
+# xDINO Pools
 xDINO Pools: new tokens enter the Dino DeFi community!
 
 xDINO Pools allow Huobi ECO Chain projects to bootstrap adoption by distributing a portion of their tokens to $DINO token holders. Syrup Pool is split into two sections: Core and Community.
