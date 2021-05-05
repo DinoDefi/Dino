@@ -1,4 +1,4 @@
-#Dino Dao Governance
+# Dino Dao Governance
 
 $DINO tokens will be used for staking as a representation of voting power, and for determining the distribution of staking fees. Dino will be governed through a DAO structure, with $DINO tokens representing voting power, which can be used directly or delegated. Possible governance proposals include: 
 
