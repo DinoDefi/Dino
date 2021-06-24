@@ -401,6 +401,10 @@ contract MasterChef is Ownable {
     event Withdraw(address indexed user, uint256 indexed pid, uint256 amount);
     event EmergencyWithdraw(address indexed user, uint256 indexed pid, uint256 amount);
 
+    event SetDev(address indexed user, address indexed _devaddr);
+    event SetFeeAddress(address indexed user, address indexed _feeAddress);
+    event UpdateEmissionRate(address indexed user, uint256 _dytPerBlock);
+    
     constructor(
         DinoYield _dyt,
         address _devaddr,
@@ -434,9 +438,14 @@ contract MasterChef is Ownable {
             depositFeeBP: _depositFeeBP
         }));
     }
+    
+    modifier validatePoolByPid(uint256 _pid) {
+        require (_pid < poolInfo.length, "Pool does not exist");
+        _;
+    }
 
 
-    function set(uint256 _pid, uint256 _allocPoint, uint16 _depositFeeBP, bool _withUpdate) public onlyOwner {
+    function set(uint256 _pid, uint256 _allocPoint, uint16 _depositFeeBP, bool _withUpdate) public onlyOwner validatePoolByPid(_pid) {
         require(_depositFeeBP <= 10000, "set: invalid deposit fee basis points");
         if (_withUpdate) {
             massUpdatePools();
@@ -452,7 +461,7 @@ contract MasterChef is Ownable {
     }
 
 
-    function pendingdyt(uint256 _pid, address _user) external view returns (uint256) {
+    function pendingdyt(uint256 _pid, address _user) external view validatePoolByPid(_pid) returns (uint256) {
         PoolInfo storage pool = poolInfo[_pid];
         UserInfo storage user = userInfo[_pid][_user];
         uint256 accdytPerShare = pool.accdytPerShare;
@@ -484,13 +493,14 @@ contract MasterChef is Ownable {
         }
         uint256 multiplier = getMultiplier(pool.lastRewardBlock, block.number);
         uint256 dytReward = multiplier.mul(dytPerBlock).mul(pool.allocPoint).div(totalAllocPoint);
-        dyt.mint(devaddr, dytReward.div(10));
-        dyt.mint(address(this), dytReward);
+        uint256 dytRewardToDev = dytReward.div(10);
+        dyt.mint(devaddr, dytRewardToDev);
+        dyt.mint(address(this), dytReward.sub(dytRewardToDev));
         pool.accdytPerShare = pool.accdytPerShare.add(dytReward.mul(1e12).div(lpSupply));
         pool.lastRewardBlock = block.number;
     }
 
-    function deposit(uint256 _pid, uint256 _amount) public {
+    function deposit(uint256 _pid, uint256 _amount) public validatePoolByPid(_pid) {
         PoolInfo storage pool = poolInfo[_pid];
         UserInfo storage user = userInfo[_pid][msg.sender];
         updatePool(_pid);
@@ -515,7 +525,7 @@ contract MasterChef is Ownable {
     }
 
 
-    function withdraw(uint256 _pid, uint256 _amount) public {
+    function withdraw(uint256 _pid, uint256 _amount) public validatePoolByPid(_pid) {
         PoolInfo storage pool = poolInfo[_pid];
         UserInfo storage user = userInfo[_pid][msg.sender];
         require(user.amount >= _amount, "withdraw: not good");
@@ -533,7 +543,7 @@ contract MasterChef is Ownable {
     }
 
 
-    function emergencyWithdraw(uint256 _pid) public {
+    function emergencyWithdraw(uint256 _pid) public validatePoolByPid(_pid) {
         PoolInfo storage pool = poolInfo[_pid];
         UserInfo storage user = userInfo[_pid][msg.sender];
         uint256 amount = user.amount;
@@ -557,17 +567,20 @@ contract MasterChef is Ownable {
     function dev(address _devaddr) public {
         require(msg.sender == devaddr, "dev: wut?");
         devaddr = _devaddr;
+        emit SetDev(msg.sender, _devaddr);
     }
 
-    function setFeeAddress(address _feeAddress) public{
+    function setFeeAddress(address _feeAddress) public {
         require(msg.sender == feeAddress, "setFeeAddress: FORBIDDEN");
         feeAddress = _feeAddress;
+        emit SetFeeAddress(msg.sender, _feeAddress);
     }
 
 
     function updateEmissionRate(uint256 _dytPerBlock) public onlyOwner {
         massUpdatePools();
         dytPerBlock = _dytPerBlock;
+        emit UpdateEmissionRate(msg.sender, _dytPerBlock);
     }
 }
 
