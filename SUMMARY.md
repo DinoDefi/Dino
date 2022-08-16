@@ -28,3 +28,7 @@
     * [Trading Fees Explained​](english-eng/dino-products/dinuu-duu-protocol/trading-fees-explained.md)
     * [Dinuu Insurance Fund (DIF)](english-eng/dino-products/dinuu-duu-protocol/dinuu-insurance-fund-dif.md)
     * [The Treasury](english-eng/dino-products/dinuu-duu-protocol/the-treasury.md)
+    * [🔥 The Fire Pit](english-eng/dino-products/dinuu-duu-protocol/the-fire-pit.md)
+    * [Dinuu Auto-Liquidity Engine (DALE)](english-eng/dino-products/dinuu-duu-protocol/dinuu-auto-liquidity-engine-dale.md)
+    * [Fixed APY](english-eng/dino-products/dinuu-duu-protocol/fixed-apy.md)
+    * [How the APY is Calculated](english-eng/dino-products/dinuu-duu-protocol/how-the-apy-is-calculated.md)
