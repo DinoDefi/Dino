@@ -10,3 +10,8 @@
 * [README](<README (1).md>)
 * [Dino DeFi Roadmap](Roadmap.md)
 * [Dino DeFi Tokenomics](Tokenomics.md)
+* [Page 2](page-2.md)
+
+## ENGLISH (ENG)&#x20;
+
+* [Page 1](english-eng/page-1.md)
