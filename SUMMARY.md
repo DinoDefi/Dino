@@ -23,3 +23,8 @@
 * [DINO Products](english-eng/dino-products/README.md)
   * [Dinuu(DUU) Protocol](english-eng/dino-products/dinuu-duu-protocol/README.md)
     * [Dinuu Overview](english-eng/dino-products/dinuu-duu-protocol/dinuu-overview.md)
+    * [DUU Token](english-eng/dino-products/dinuu-duu-protocol/duu-token.md)
+    * [Dinuu Buy and Sell Fees](english-eng/dino-products/dinuu-duu-protocol/dinuu-buy-and-sell-fees.md)
+    * [Trading Fees Explained​](english-eng/dino-products/dinuu-duu-protocol/trading-fees-explained.md)
+    * [Dinuu Insurance Fund (DIF)](english-eng/dino-products/dinuu-duu-protocol/dinuu-insurance-fund-dif.md)
+    * [The Treasury](english-eng/dino-products/dinuu-duu-protocol/the-treasury.md)
