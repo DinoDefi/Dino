@@ -1,15 +1,39 @@
 ---
-description: The DeFi platform with endless possibilities!
+description: 搭建无限平台的去中心化平台!
 cover: .gitbook/assets/bg.png
 coverY: 0
 ---
 
 # 🦕 欢迎来到DINO的世界！🦖
 
-$DINO tokens will be used for staking as a representation of voting power, and for determining the distribution of staking fees. Dino will be governed through a DAO structure, with $DINO tokens representing voting power, which can be used directly or delegated. Possible governance proposals include:
+DeFi是一个可供所有人使用，**功能齐全**、**智能去中心化的金融平台**。凭借其产品套件和创新功能，DINO使参与DeFi变得更加**简单明了**。**无论何时何地**，DINO都能满足您的需求，并在您的DeFi旅程中给予最大的支持，其中包括：
 
-1. Changing asset structure (fees, composition, or creation)
-2. Raising or lowering the reserve limit of a market; adjusting yield distribution and interest rates
-3. Altering pool attributes, such as voting power time function, pool’s dynamic interest % calculation for staking
+\
+**-资金储蓄**
 
-These proposals will be voted on by any user that holds the voting threshold of $DINO tokens, and adopted or rejected in an autonomous and transparent fashion.
+**-权益质押/抵押收息**
+
+**-流动资金挖矿和收益耕作**
+
+**-赚取、购买和交易NFT**
+
+**-资产兑换**
+
+**-DINO DAO治理**
+
+**-获取合作伙伴代币**
+
+\
+通过一系列全方位的服务和功能，DINO立志于成为用户**最理想的去中心化平台**，并适用于如何**背景的用户**。DINO平台：
+
+**-简洁明了**
+
+**-功能强大**
+
+**-方便使用**
+
+\
+结合以上功能，DINO在开发时充分考虑到了**安全性和社区环境**。作为一个**多功能**的平台，DINO的优势在于可以整合DEX流动资产，吸引新用户加入区块链和De-Fi网络，同时也提供资产抵押服务和其他创新功能，使DINO成为HECO和De-Fi网络上的用户**首选应用程序**。&#x20;
+
+\
+DINO的用例多种多样，可形成**DINO生态系统**，一旦平台上的所有功能陆续登出，它们便可以全面运行。DINO将会成为一个蓬勃发展的生态系统，其中**$DINO代币清楚地体现了DINO平台的价值**，并且会通过与其他平台和服务提供商的**战略合作和共同目标**来实现。
