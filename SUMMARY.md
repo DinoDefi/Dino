@@ -17,5 +17,5 @@
 * [DINO Information](english-eng/dino-information/README.md)
   * [Commitment & Transparency 🤝](english-eng/dino-information/commitment-and-transparency.md)
   * [Contracts 📝](english-eng/dino-information/contracts.md)
-  * [Page 1](english-eng/dino-information/page-1.md)
+  * [Tokenomics 📊](english-eng/dino-information/tokenomics.md)
   * [Page 4](english-eng/dino-information/page-4.md)
