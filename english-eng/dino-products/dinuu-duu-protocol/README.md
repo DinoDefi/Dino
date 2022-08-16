@@ -1,2 +1,2 @@
-# Dinuu(DUU) Protocol
+# Dinuu (DUU) Protocol
 
