@@ -20,3 +20,6 @@
   * [Tokenomics 📊](english-eng/dino-information/tokenomics.md)
   * [Roadmap     ✈️](english-eng/dino-information/roadmap.md)
   * [FAQ❓](english-eng/dino-information/faq.md)
+* [DINO Products](english-eng/dino-products/README.md)
+  * [Dinuu(DUU) Protocol](english-eng/dino-products/dinuu-duu-protocol/README.md)
+    * [Dinuu Overview](english-eng/dino-products/dinuu-duu-protocol/dinuu-overview.md)
