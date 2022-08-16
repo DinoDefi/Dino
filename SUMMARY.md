@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🦕 Welcome to the world of DINO!](README.md)
+* [🦕 欢迎来到DINO的世界！🦖](dao-governance-1.md)
 * [Dino Audit](<Dino Audit.md>)
 * [Pre-Open Sale](<Dino Pre-Open Sale.md>)
 * [Dino Swap](Exchange.md)
