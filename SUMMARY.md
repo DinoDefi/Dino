@@ -16,3 +16,4 @@
 
 * [DINO Information](english-eng/dino-information/README.md)
   * [Page 1](english-eng/dino-information/page-1.md)
+  * [Commitment & Transparency 🤝](english-eng/dino-information/commitment-and-transparency.md)
