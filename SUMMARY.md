@@ -6,6 +6,6 @@
 * [Dino Swap](Exchange.md)
 * [Dino Farm](Farming.md)
 * [xDINO Pools](Pools.md)
-* [README](<README (1).md>)
+* [README](README.md)
 * [Dino DeFi Roadmap](Roadmap.md)
 * [Dino DeFi Tokenomics](Tokenomics.md)
