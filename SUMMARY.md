@@ -19,3 +19,4 @@
   * [Contracts 📝](english-eng/dino-information/contracts.md)
   * [Tokenomics 📊](english-eng/dino-information/tokenomics.md)
   * [Roadmap     ✈️](english-eng/dino-information/roadmap.md)
+  * [FAQ❓](english-eng/dino-information/faq.md)
