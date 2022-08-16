@@ -4,7 +4,7 @@ How to connect to Huobi ECO (HECO) using MetaMask. MetaMask was created out of t
 
 ## Install <a href="#d4f8" id="d4f8"></a>
 
-**Example: Install MetaMask in Brave browser**Open Extension Category in Brave: [https://chrome.google.com/webstore/category/extensionsSearch](https://chrome.google.com/webstore/category/extensionsSearch) for MetaMask![](https://gblobscdn.gitbook.com/assets%2F-MT21yUNBdjocYuN5ONa%2F-MUC\_Ew\_MtCs6xQ-vFav%2F-MUCcgLwb9Xrdh36-PjV%2Fimage.png?alt=media\&token=fca1d853-1f25-460e-8e2a-bc6098ea82a7)​Warning: Make sure it’s offered by metamask.io
+**Example: Install MetaMask in Brave browser.** Open Extension Category in Brave: [https://chrome.google.com/webstore/category/extensionsSearch](https://chrome.google.com/webstore/category/extensionsSearch) for MetaMask![](https://gblobscdn.gitbook.com/assets%2F-MT21yUNBdjocYuN5ONa%2F-MUC\_Ew\_MtCs6xQ-vFav%2F-MUCcgLwb9Xrdh36-PjV%2Fimage.png?alt=media\&token=fca1d853-1f25-460e-8e2a-bc6098ea82a7)​Warning: Make sure it’s offered by metamask.io
 
 * Click on “Add to Brave”
 
@@ -14,4 +14,18 @@ How to connect to Huobi ECO (HECO) using MetaMask. MetaMask was created out of t
 
 1. 1.Click on the “Create a wallet” button
 
-![](https://gblobscdn.gitbook.com/assets%2F-MT21yUNBdjocYuN5ONa%2F-MUC\_Ew\_MtCs6xQ-vFav%2F-MUCdGtVguGvjCh42wu-%2Fimage.png?alt=media\&token=9a2cddfd-1e84-4694-b318-2ff5a70cfa3e)​2. Create a password of at least 8 characters![](https://gblobscdn.gitbook.com/assets%2F-MT21yUNBdjocYuN5ONa%2F-MUC\_Ew\_MtCs6xQ-vFav%2F-MUCdQKm7WuaqViK2yBu%2Fimage.png?alt=media\&token=79835d1e-bb6f-4999-8f6b-2ed33f3c17e2)​
+![](https://gblobscdn.gitbook.com/assets%2F-MT21yUNBdjocYuN5ONa%2F-MUC\_Ew\_MtCs6xQ-vFav%2F-MUCdGtVguGvjCh42wu-%2Fimage.png?alt=media\&token=9a2cddfd-1e84-4694-b318-2ff5a70cfa3e)​2. Create a password of at least 8 characters![](https://gblobscdn.gitbook.com/assets%2F-MT21yUNBdjocYuN5ONa%2F-MUC\_Ew\_MtCs6xQ-vFav%2F-MUCdQKm7WuaqViK2yBu%2Fimage.png?alt=media\&token=79835d1e-bb6f-4999-8f6b-2ed33f3c17e2)
+
+​3. Click on “Create” and then write down your backup phrase.![](https://gblobscdn.gitbook.com/assets%2F-MT21yUNBdjocYuN5ONa%2F-MUC\_Ew\_MtCs6xQ-vFav%2F-MUCd\_PHaZ\_vYdK1EZTz%2Fimage.png?alt=media\&token=9ab1bdc9-cf9c-4bba-b4a3-5579b36b9e1c)
+
+4\. Select each phrase in order to make sure it is correct then click “Confirm”.![](https://gblobscdn.gitbook.com/assets%2F-MT21yUNBdjocYuN5ONa%2F-MUC\_Ew\_MtCs6xQ-vFav%2F-MUCdlsJ2ZqjzLkh1Z5H%2Fimage.png?alt=media\&token=d1ba4534-d21a-4e84-836b-b798760c1c5f)
+
+## Connect Your MetaMask With the Binance Smart Chain <a href="#1c3a" id="1c3a"></a>
+
+1. Go to the setting page
+
+![](../../.gitbook/assets/image.png)
+
+2\. Add a new network
+
+**Network Name:** Smart Chain**New RPC URL:** https://bsc-dataseed.binance.org/**ChainID:** 56**Symbol:** BNB**Block Explorer URL:** https://bscscan.com

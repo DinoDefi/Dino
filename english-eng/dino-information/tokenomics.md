@@ -12,4 +12,4 @@ The DINO ecosystem will incentivize all users to contribute by rewarding them as
 
 DINO token is the governance token of the DINO Defi platform. It will also capture the economic benefits of the protocol. There will be a maximum of **250,000,000** $Dino tokens.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (1).png>)
