@@ -14,4 +14,5 @@
 
 ## ENGLISH (ENG)&#x20;
 
-* [Page 1](english-eng/page-1.md)
+* [DINO Information](english-eng/dino-information/README.md)
+  * [Page 1](english-eng/dino-information/page-1.md)
